@@ -1,0 +1,124 @@
+﻿<Page
+    x:Class="WMP_UWP_TileGame.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WMP_UWP_TileGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid x:Name="GameGrid" Height="800" Width="800">
+            <Button x:Name="Button1" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button2" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="200,0,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button3" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="400,0,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button4" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="600,0,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button5" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="0,200,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button6" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="200,200,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button7" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="400,200,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button8" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="600,200,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button9" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="0,400,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button10" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="200,400,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button11" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="400,400,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button12" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="600,400,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button13" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="0,600,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button14" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="200,600,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+            <Button x:Name="Button15" x:FieldModifier="public" Content="😀" Height="200" Width="200" VerticalAlignment="Top" FontSize="50" IsEnabled="False" Click="Button_Click" Margin="400,600,0,0" Background="#FF007ACC" BorderBrush="#FF040000">
+                <Button.Transitions>
+                    <TransitionCollection>
+                        <RepositionThemeTransition/>
+                    </TransitionCollection>
+                </Button.Transitions>
+            </Button>
+        </Grid>
+        <StackPanel>
+            <TextBlock Name="TimerBlock" x:FieldModifier="public" Height="60" Width="400" HorizontalAlignment="Left" Foreground="#FF007ACC" FontSize="50" Margin="20,0,0,20" FontWeight="Bold"/>
+            <TextBox Name="NameBox" x:FieldModifier="public" HorizontalAlignment="Left" Foreground="#FF007ACC" TextWrapping="Wrap" Height="35" Width="150" TextChanged="NameBox_OnTextChanged" Margin="20,0,0,0"/>
+            <Button Content="Start" x:FieldModifier="public" Name="StartButton" Height="60" Width="150" Click="StartButton_Click" IsEnabled="False" FontSize="25" Margin="20,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Page>
